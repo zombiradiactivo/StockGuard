@@ -11,7 +11,7 @@ def load_inventory() -> List[dict]:
 
     Returns:
         List[dict]: Lista de artículos en el inventario.
-                    Devuelve lista vacía si el archivo no existe o está corrupto.
+        Devuelve lista vacía si el archivo no existe o está corrupto.
 
     Raises:
         IOError: Si ocurre un error de lectura inesperado.
